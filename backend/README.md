@@ -2,17 +2,19 @@
 
 This plugin is a payment plugin for MedusaJS that allows you to accept payments from Halkbank MK. Halkbank uses Nestpay as a payment gateway, so the plugin can likely be adjusted to work with other banks that rely on Nestpay.
 
+See [Halkbank Payment Plugin for MedusaJS - Frontend](https://www.npmjs.com/package/@sradevski/medusa-payment-halkbank-react) for the frontend component.
+
 ## Installation
 
-The plugin expects that the payment and cart module are available in the project.
+> The plugin expects that the payment and cart module are available in the project.
 
-1. Install the plugin:
+**Install the plugin:**
 
 - `npm i @sradevski/medusa-payment-halkbank`
 - `yarn add @sradevski/medusa-payment-halkbank`
 - `pnpm install @sradevski/medusa-payment-halkbank`
 
-2. Add the plugin to your Medusa project:
+**Add the plugin to your Medusa project:**
 
 ```
   plugins: [
@@ -23,7 +25,7 @@ The plugin expects that the payment and cart module are available in the project
   ]
 ```
 
-3. Add the Halkbank provider to payment module:
+**Add the Halkbank provider to payment module:**
 
 ```ts
   {
@@ -44,8 +46,4 @@ The plugin expects that the payment and cart module are available in the project
     },
 ```
 
-## Usage
-
-Once you've set up the plugin, you need to set up the storefront to call the payment webhook as provided by the plugin.
-
-TBD
+The backend is ready to accept calls from the frontend component.
