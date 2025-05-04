@@ -1,7 +1,13 @@
 {
   "name": "@sradevski/medusa-payment-halkbank-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React component to support payments with Halkbank for MedusaJS",
+  "keywords": [
+    "medusa",
+    "plugin",
+    "medusa-payment-halkbank",
+    "medusa-payment-halkbank-frontend"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sradevski/medusa-payment-halkbank.git"
