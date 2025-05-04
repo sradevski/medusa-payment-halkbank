@@ -18,6 +18,7 @@ The plugin expects that the payment and cart module are available in the project
   plugins: [
     {
       resolve: "@sradevski/medusa-payment-halkbank",
+      options: {}
     },
   ]
 ```
