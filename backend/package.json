@@ -1,6 +1,6 @@
 {
   "name": "@sradevski/medusa-payment-halkbank",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Halkbank payment plugin for MedusaJS",
   "author": "Stevche Radevski",
   "license": "MIT",
